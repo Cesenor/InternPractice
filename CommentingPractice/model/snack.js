@@ -2,7 +2,8 @@
  * @file snack.js
  * @author: Cameron Senor (Firebase)
  */
-export default class Snack{
+
+ class Snack{
 
 
     /**
@@ -50,7 +51,7 @@ export default class Snack{
 /**
 * Chocolate class
 */
-export class Chocolate extends Snack{
+class Chocolate extends Snack{
 
     /**
     * Constructor
@@ -91,3 +92,5 @@ export class Chocolate extends Snack{
         this.chocolateType = typePara; 
     }
 }
+
+module.exports = {Chocolate,Snack}
